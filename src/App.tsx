@@ -34,4 +34,6 @@ export default App;
 
 
 
-// <Route path={["/login", "/signup"]}>
+// <Route path="/auth"> -> here this is clled common namespace. 
+//Now, login will get url "/auth/login" and signup will get url "/auth/signup"
+//this is a problem because if the client say to change url then it is very hectic to change everywhere.
